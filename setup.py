@@ -8,7 +8,7 @@ setup(name='ucdev',
       author='Taisuke Yamada',
       author_email='tai@remove-if-not-spam.rakugaki.org',
       license='MIT',
-      packages=['ucdev'],
+      packages=['ucdev', 'ucdev.cy7c65211'],
       classifiers=[
           'License :: OSI Approved :: MIT License',
           'Intended Audience :: Developers',
