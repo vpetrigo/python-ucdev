@@ -6,8 +6,10 @@ import platform
 # Platform specific headers
 ######################################################################
 
+src = ""
+
 if platform.system() == 'Linux':
-  src = """
+  src += """
     typedef bool BOOL;
 """
 
